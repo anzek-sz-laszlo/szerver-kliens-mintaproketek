@@ -1,0 +1,26 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Microsoft\jdk-11.0.11.9-hotspot\bin\javadoc.exe" @options @packages"
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\allclasses-index.html = 1619856700567
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\allclasses.html = 1619856700614
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\allpackages-index.html = 1619856700567
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\constant-values.html = 1619856700165
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\deprecated-list.html = 1619856700598
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\element-list = 1619856699838
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\help-doc.html = 1619856700661
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\index-all.html = 1619856700552
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\index.html = 1619856700645
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\member-search-index.js = 1619856700520
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\member-search-index.zip = 1619856700536
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\options = 1619856697738
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\overview-summary.html = 1619856700645
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\overview-tree.html = 1619856700364
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\package-search-index.js = 1619856700411
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\package-search-index.zip = 1619856700458
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\packages = 1619856697738
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\script.js = 1619856700692
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\search.js = 1619856700708
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\stylesheet.css = 1619856700692
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\type-search-index.js = 1619856700505
+D:\java_meghajto\szerver-kliens\AnzekSzerverKliens\target\site\apidocs\type-search-index.zip = 1619856700505

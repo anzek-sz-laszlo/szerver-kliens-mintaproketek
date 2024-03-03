@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>JSON Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+      #textmezo1{
+                width: 400px;
+                height: 120px;
+                }
+                
+      #textmezo2{
+                width: 100px;
+                height: 46px;
+                }                
+    </style>    
+    <body>
+        <form action="http://localhost:7777/message" method="post" enctype="application/json">
+            
+            <!-- Egyetlen rejtett input mező, amely tartalmazza a JSON adatot a "jsonPayload" egy rekord-azonosító
+            elvileg külön javascripttel szokás képezni, de a böngészők is küldenek alapértelmezett kódot, és meg is adható-->
+            <input type="hidden" name="jsonPayload" id="jsonPayload" value="i123456789012345678n">            
+            
+            Személyi adatok:<br>
+            <br>
+            <input type="text" name="neve" value='' placeholder="ide ird a neved" size="70" required><br>            
+            <input type="number" name="eletKor" value='' style="width: 60px;" placeholder="korod" required><br>
+            <input type="textarea" id="textmezo1" name="rovid_leiras" value='' rows="4" cols="50" placeholder="tégy egy rövid bemutatkozást" required><br> 
+            <br>
+            
+            <!--egy másik fajta egyszerű űralp-adatbeviteli mód:-->
+            Lakhely, telephely:<br>
+            <br>
+            <label for="irszam">Irányítószám  : </label>
+            <input type="number" id="irsz" name="irszam" value=9999  style="width: 70px;" placeholder="irszám" required><br>
+            <label for="telepules">Település Név : </label>
+            <input type="text" id="elnevezes" name="telepules" value='' size="50" placeholder="településnév" required><br>              
+            <label for="utca_hsz">Utca-Házszám  : </label>        
+            <!-- a "textarea" input esetében az ami alább van,
+            output esetében "readonly" attributumot kell utána tenni!-->
+            <input type="textarea" id="textmezo2" name="utca_hsz" value='' rows="2" cols="20"  placeholder="utca házszám" required></textarea>   
+            
+            <br>
+            <br>
+            <!-- A form elküldése -->
+            <button type="submit">Submit</button>
+        </form>        
+    </body>
+</html>
+
